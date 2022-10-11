@@ -150,7 +150,7 @@ const Header = () => {
                           to='/quiz'
                           aria-label='Quiz'
                           title='Quiz'
-                          className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                          className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:bg-deep-purple-accent-400'
                         >
                           Quiz
                         </Link>
