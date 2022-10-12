@@ -3,8 +3,6 @@ import { toast } from 'react-toastify';
 
 const Options = ({option,correctAnswer}) => {
   const showAnswer=(option)=>{
-  
-   
    if(correctAnswer===option ){
     toast.info('Correct Answer!', { autoClose: 500 })
    }
