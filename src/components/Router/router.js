@@ -1,15 +1,18 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Error from '../Error';
 import Home from '../Home';
-import Root from '../layout/Root'
-const router=createBrowserRouter([
+import Root from '../Root';
+
+const router= createBrowserRouter([
   {
-    path:'/',
+   path:'/',
    element:<Root></Root>,
    errorElement:<Error></Error>,
+   loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
    children:[
     {
       path: '/',
+     
       element: <Home></Home>,
     },
     {
