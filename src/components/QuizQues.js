@@ -5,7 +5,7 @@ import Options from './Options';
 const Quiz = () => {
     const quizQues = useLoaderData();
    const {name,questions}=quizQues.data;
-   console.log(questions);
+  
     return (
         <div className='m-20'>
             <h2 className='text-4xl text-teal-900 font-semibold'>Quiz of {name}</h2>
@@ -16,7 +16,7 @@ const Quiz = () => {
                 <h1 class="sm:text-xl text-xl font-medium text-center title-font text-gray-900 mb-4">{ques.question}</h1>
               </div>
               <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-              {ques.options.map(option=><Options key={option.key} option={option}></Options>)}</div>
+              {ques.options.map(option=><Options key={option.key} option={option} correctAnswer={ques.correctAnswer}></Options>)}</div>
             </div>
           </section>)
            }
