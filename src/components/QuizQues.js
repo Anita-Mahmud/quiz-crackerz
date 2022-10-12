@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Options from './Options';
-import { EyeSlashIcon,EyeIcon } from '@heroicons/react/24/solid'
+import { EyeIcon } from '@heroicons/react/24/solid'
 import { toast } from 'react-toastify';
 
 const Quiz = () => {

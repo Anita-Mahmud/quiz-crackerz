@@ -4,8 +4,8 @@ const Blog = () => {
     return (
         
             <div className=" w-full dark:bg-gray-800 dark:text-gray-100">
-                <div className="container mb-10 max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-900">
-                    <div className="flex items-center justify-between">
+                <div className="container  mb-10 max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-900">
+                    <div className="flex items-center justify-between ">
                         <span className="text-sm dark:text-gray-400">Oct 12, 2022</span>
                     </div>
                     <div className="mt-3">
