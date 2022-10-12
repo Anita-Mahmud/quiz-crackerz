@@ -19,7 +19,7 @@ const Topics = () => {
      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">{topic.name}</h2>
        <p class="leading-relaxed text-base">Number of Question: {topic.total}</p>
-       <Link to={`../quiz/${topic.id}`} class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+       <Link to={`../quiz/${topic.id}`} class="mt-3 text-indigo-500 inline-flex items-center">Start Practicing
          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
            <path d="M5 12h14M12 5l7 7-7 7"></path>
          </svg>
